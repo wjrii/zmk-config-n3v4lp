@@ -2,6 +2,6 @@ if SHIELD_N3V4
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "N3V4"
+    default "N3V4LP"
 
 endif
