@@ -26,11 +26,11 @@ include:
 ## To build with ZMK Studio support, uncomment the following block
 ## by removing the leading '#' from each line.
 
-#  - board: rpi_pico
-#    shield: n3v4
-#    snippet: studio-rpc-usb-uart
-#    cmake-args: -DCONFIG_ZMK_STUDIO=y
-#    artifact-name: n3v4_with_studio
+  - board: rpi_pico
+    shield: n3v4
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: n3v4_with_studio
 
   - board: rpi_pico
     shield: settings_reset
